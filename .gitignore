@@ -1,5 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
 # Ignore
+
 .DS_Store
+# Mypy cache
+.mypy_cache/
+.idea/
+
+# Python cache
+.pytest_cache/
+__pycache__/
+*.egg-info
+*.pyc
+
+.virtualenvs/
 /.ipynb_checkpoints/*
 /build/*
 /h5py/*

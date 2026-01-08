@@ -1,0 +1,8 @@
+jupyter
+h5py
+hdf5plugin
+matplotlib
+notebook
+hsds
+h5pyd
+rise

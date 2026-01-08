@@ -1,0 +1,4 @@
+#!/bin/bash
+# run make venv first
+umask 0002
+source ~/.virtualenvs/hdf5tutorial/bin/activate
