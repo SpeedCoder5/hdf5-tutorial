@@ -39,3 +39,9 @@ venv-test: venv ## make the venv and verify all the libraries load
 	python test_environment.py;\
 	dpkg -s libhdf5-dev;\
 	h5dump --version;
+
+server:
+	. $(HOME)/.virtualenvs/$(PROJECT_NAME)/bin/activate;\
+	mkdir -p data;\
+	chmod 777 data;\
+	hsds --root_dir data;

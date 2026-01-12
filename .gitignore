@@ -10,6 +10,7 @@ __pycache__/
 # Mypy cache
 .mypy_cache/
 .idea/
+data/
 
 # Python cache
 .pytest_cache/
